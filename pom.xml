@@ -92,6 +92,8 @@
                                 <move todir="${destDir}">
                                     <fileset dir="${project.build.directory}/${project.artifactId}-${upstream.version}/dist"/>
                                 </move>
+                                <echo message="cleaning up git hooks"/>
+                                <delete dir=".git/hooks"/>
                             </target>
                         </configuration>
                     </execution>
