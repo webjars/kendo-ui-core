@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>kendo-ui-core</artifactId>
-    <version>2018.1.222-SNAPSHOT</version>
+    <version>2022.1.119-SNAPSHOT</version>
     <name>Kendo UI Core</name>
     <description>WebJar for Kendo UI Core</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>2018.1.221</upstream.version>
+        <upstream.version>2022.1.119</upstream.version>
         <upstream.url>https://github.com/telerik/kendo-ui-core/archive/${upstream.version}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
         <requirejs>
